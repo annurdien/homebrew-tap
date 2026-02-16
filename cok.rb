@@ -4,11 +4,11 @@ class Cok < Formula
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/annurdien/cok/releases/download/v0.1.0/cok-arm64-apple-darwin.tar.gz"
-    sha256 "6f5e87e6fb922cc8d2b3211bfe2b178b6c0d96c8dfd9c6814a8af6c4bd5e929a"
+    url "https://github.com/annurdien/cok/releases/download/v0.2.0/cok-arm64-apple-darwin.tar.gz"
+    sha256 "f7cb425dc73d8a9920bfbe75ad26346d47210f977e239a5a4f7b6825270e276c"
   else
-    url "https://github.com/annurdien/cok/releases/download/v0.1.0/cok-x86_64-apple-darwin.tar.gz"
-    sha256 "28a61b9c87e79f0f18a64dfdcf2f44f231609a1e44942944e9e8decc929a4ea1"
+    url "https://github.com/annurdien/cok/releases/download/v0.2.0/cok-x86_64-apple-darwin.tar.gz"
+    sha256 "d103ba033a9d9f9b121d4e55198d3bfc403c51f3e4c8187cf9e4879a645baa7e"
   end
 
   def install
